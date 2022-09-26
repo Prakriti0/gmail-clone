@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*HEADER*/
+.header_left img{
+    object-fit: contain;
+    margin-left: 5px;
+    height: 80px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+}
+.header_left span{
+    padding: 10px;
+    cursor: pointer;
+}
+.header_middle{
+    display: flex;
+    flex: 0.7;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.material-symbols-outlined{
+    color:gray;
+}
+.header_middle input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: medium;
+    background-color: transparent;
+
+}
+.header_right span{
+    padding: 10px;
+    cursor: pointer;
+}
+.sidebar{
+    flex: 30%;
+    max-width: 300px;
+    padding-right: 20px;
+}
+.sidebar_compose{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: black;
+    background-color: lightblue;
+    padding: 15px;
+    border-radius:20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.sidebar_compose span{
+    margin-right: 5px;
+}
+.sidebar_option{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: gray;
+
+}
+.sidebar_option_active{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: gray;
+}
+.sidebar_option_active span{
+    padding: 10px;
+}
+.sidebar_option_active h1{
+    font-size: 20px;
+}
+.sidebar_option span{
+    padding: 15px;
+}
+.sidebar_option h1{
+    font-size: 15px;
+    font-weight: 400px;
+
+}
+
+.sidebar_footer
+{
+display: flex;
+align-items: center;
+}
+.sidebar_footericons:hover{
+    background-color: white;
+    color:red;
+}
+.sidebar_footericons .material-symbols-outlined{
+   padding-left: 300px;
+}
+.sidebar_footericons {
+    margin-top:25px;
+    padding-top: 40px;
+    font-size: 25px;
+}
+.sidebar_option:hover,
+.sidebar_option:hover h1,
+.sidebar_option:hover .material-symbols-outlined,
+.sidebar_option_active,
+.sidebar_option_active h1,
+.sidebar_option_active .material-symbols-outlined{
+    background-color: #fcfcfc;
+    color:black;
+    font-weight: 800;
+}
+.main_body{
+    display:flex;
+    height: 100vh;
+}
+body{
+    height:100vh;
+
+}
+.emaillist{
+    flex:1;
+    overflow:scroll;
+}
+.emaillist_settings{
+    position:sticky;
+    top:0;
+    display:flex;
+    justify-content:space-between;
+    border-bottom:1px solid whitesmoke;
+    background-color:white;
+    padding:10px;
+}
+.emaillist_settingsleft{
+    display:flex;
+    align-items:center;
+}
+.emaillist_settings .material-symbols-outlined{
+    margin:5px;
+    cursor:pointer;
+}
+.section{
+    display: flex;
+    align-items: center;
+    border-width: 2px;
+    padding: 10px;
+    cursor: pointer;
+    color: gray;
+    border-width: 0;
+    min-width: 180px;
+}
+.emaillist_sections{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: #fcfcfc;
+    border-bottom:1px solid whitesmoke ;
+    z-index: 999;
+    cursor: pointer;
+
+}
+.section_selected{
+    background-color: whitesmoke;
+    border-right: 3px;
+    color: blue;
+    border-bottom: 3px solid blue;
+
+}
+.section_selected .material-symbols-outlined{
+    color: blue;
+}
+.section:hover{
+    background-color: whitesmoke;
+    border-width: 2px;
+}
+.section h2{
+    font-size: 14px;
+    margin-bottom:15px ;
+}
+.emailRow_options{
+    display: flex;
+    align-items: center;
+}
+.emailRow_options .material-symbols-outlined,input{
+    margin: 5px;
+}
+.emailRow{
+    display: flex;
+    align-items: center;
+    height: 58px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+}
+.emailRow:hover{
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0 4px 4px -2px blue;
+}
+.emailRow_message{
+    display: flex;
+    flex: 0.6%;
+    align-items:center;
+    font-size: 13px;
+
+}
+.emailRow_message h4{
+    width: 400px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.emailRow_title{
+    font-size: 13px;
+    flex:10%;
+}
+.emailRow_time{
+    padding-left: 15px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.emailRow_description{
+    font-weight: 400;
+    color: grey;
+}
